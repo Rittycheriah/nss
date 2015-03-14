@@ -5,11 +5,11 @@ div {
 }
 
 .red {
-  background-color: red;
+  background-color: tomato;
 }
 
 .blue {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 .hide {
@@ -20,9 +20,9 @@ div {
   display: initial;
 }
 
-/*
-#mousey:hover {
-  background-color: blue;
+button {
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px 0 20px 0;
 }
-*/
 
