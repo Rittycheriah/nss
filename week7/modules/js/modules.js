@@ -1,27 +1,34 @@
-var basicCarModule = {
-  color: "blue",
-  size: "sedan",
-  price: 0,
 
-  options: {
-    powerSteering: true,
-    sunroof: true,
-    heatedSeats: false,
-    racingStripes: false
-  },
+var module = (function () {
+  var color = "blue";
 
-  setPrice: function (newPrice) {
-    this.price = newPrice;
-  },
+  return {
+    a: 1, 
+    getColor: function () {
+      return color;
+    },
+  };
 
-  setColor: function (newColor) {
-    this.color = newColor;
-  }
+})();
 
-}
+console.log(module.getColor());
 
-console.log(basicCarModule);
 
-basicCarModule.setColor("red");
 
-console.log(basicCarModule);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
