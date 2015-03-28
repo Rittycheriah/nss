@@ -1,0 +1,29 @@
+{
+  "foods": {
+    "0": {
+      "name": "asparagus",
+      "color": "green",
+      "shape": "stick"
+    },
+    "1": {
+      "name": "hamburger",
+      "color": "grey",
+      "shape": "round"
+    },
+    "2": {
+      "name": "pizza",
+      "color": "yellow",
+      "shape": "round"
+    },
+    "3": {
+      "name": "tomato",
+      "color": "red",
+      "shape": "round"
+    },
+    "4": {
+      "name": "pretzel",
+      "color": "brown",
+      "shape": "pretzel"
+    }
+  }
+}
