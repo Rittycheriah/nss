@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= message %></h1>
+
+    <% for (var c = 0; c < todos.length; c++) { %>
+      <% var currentTodo = todos[c]; %>
+      <div class="todo-item" id="todo_<%= currentTodo._id %>">
+        <div>
+          Title: <%= currentTodo.title %>
+        </div>
+        <div>
+          Description: <%= currentTodo.description %>
+        </div>
+        <div>
+          Priority: <%= currentTodo.priority %>
+        </div>
+        <div>
+          Due date: <%= currentTodo.due_date.getDate() %> /
+          <%= currentTodo.due_date.getMonth() + 1 %> /
+          <%= currentTodo.due_date.getFullYear() %>
+        </div>
+        <div>
+          <button class="deleteButton" id="<%= currentTodo._id %>">Delete Me</button>
+        </div>
+      </div>
+
+    <% } %>
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="/javascripts/delete.js"></script>
+
+  </body>
+</html>
