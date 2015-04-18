@@ -1,10 +1,16 @@
-/*
-    Create an HTML file that contains a button
-    and a div with any content you want. The
-    background color of the div should be a color
-    of your choosing.
+var theDiv = $("#theDiv");
+var daButton = $("#theDivForButton");
 
-    Using jQuery, write code that captures when
-    the user clicks the button. When that happens,
-    change the background color of the div.
-*/
+$(document).ready(function(){
+	
+$daButton.click(function() {
+  theDiv.css("background-color", "red");
+  }
+
+);
+
+
+
+
+
+

@@ -3,7 +3,11 @@ div {
   font-size: 40px;
 }
 
-.red {
+#theDiv {
+  background-color: purple;
+}
+
+/*.red {
   background-color: red;
 }
 
@@ -18,7 +22,7 @@ div {
 .show {
   display: initial;
 }
-
+*/
 /*
 #mousey:hover {
   background-color: blue;
