@@ -1,18 +1,24 @@
 div {
   padding: 20px;
   font-size: 40px;
+  border: 1px dotted black;
 }
 
+<<<<<<< HEAD
 #theDiv {
   background-color: purple;
 }
 
 /*.red {
   background-color: red;
+=======
+.red {
+  background-color: tomato;
+>>>>>>> f68ebf9595025c2653c9884effa18be985c8b85a
 }
 
 .blue {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 .hide {
@@ -22,10 +28,17 @@ div {
 .show {
   display: initial;
 }
+<<<<<<< HEAD
 */
 /*
 #mousey:hover {
   background-color: blue;
+=======
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+>>>>>>> f68ebf9595025c2653c9884effa18be985c8b85a
 }
-*/
 
